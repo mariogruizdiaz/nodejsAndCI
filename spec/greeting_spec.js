@@ -26,6 +26,6 @@ describe("Time tests", function(){
 		var time = new Date();
 		time.setHours(22);
 		
-		expect(greeting(time)).toBe("Good nightd");
+		expect(greeting(time)).toBe("Good night");
 	});
 });
